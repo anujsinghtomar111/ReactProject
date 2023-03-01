@@ -1,0 +1,35 @@
+.productsWrapper{
+    margin: 20px 50px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+}
+
+.product img{
+    width: 100%;
+    height: 100%  !important;
+}
+.product button{
+    width: 100%;
+    background-color: #04AA6D;
+    font-size: 12px;
+    font-weight: 300;
+    border-radius: 10px;
+    padding: 5px 20px;
+    cursor: pointer;
+    box-shadow: 0 9px #999;
+    border: none;   
+}
+.product button:hover {background-color: #3e8e41}
+  
+.product button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+  .product h3{
+    font-size: small;
+  }
+  .product p{
+    font-size: 10px;
+  }

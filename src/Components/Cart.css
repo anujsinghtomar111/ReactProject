@@ -1,0 +1,83 @@
+
+.cartCardWrapper {
+  margin: 20px 50px;
+  border: 1px solid rgb(235, 235, 235);
+}
+
+.cartProduct {
+  display: grid;
+  grid-template-columns: 150px 30% 60px auto ;
+  margin: 15px 15px;
+  padding: 0 5px 5px 0px;
+  background-color: antiquewhite;
+}
+
+.cart {
+  display: grid;
+  grid-template-columns: 65% 35%;
+}
+
+.cartProduct img {
+  width: 100%;
+  height: 100%;
+  
+}
+.cartProduct .price{
+margin-left: auto;
+width: fit-content;
+}
+
+.cartProduct .title{
+  font-size: small;
+  font-weight: 400;
+}
+.lastCol{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.removeButton button {
+  background-color: white;
+  border-radius: 5px;
+  padding: 5px 15px;
+  border: 1px solid rgb(235, 235, 235);
+ 
+}
+
+.billingDetails h3 {
+  /* border: 1px solid rgb(235,235,235); */
+  margin: 20px 20px;
+  color: rgb(167, 169, 175);
+  /* text-align: center; */
+}
+
+.spantext span {
+  font-size: small;
+  display: block;
+  padding: 10px;
+
+}
+
+.spantext p {
+  border: 1px solid rgb(235, 235, 235);
+  display: flex;
+  justify-content: space-between;
+  margin-right: 50px;
+
+}
+
+.orderbutton button {
+  width: calc(100% - 50px);
+  padding: 10px;
+  border: none;
+  font-weight: bold;
+  font-size: large;
+  margin-top: 20px;
+  background-color: rgb(17, 122, 122);
+  color: white;
+}
+
+.totalbutton button {
+  margin: 1px;
+  padding: 2px;
+}

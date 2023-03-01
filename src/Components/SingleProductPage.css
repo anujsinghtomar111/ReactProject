@@ -1,0 +1,92 @@
+.sProduct{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.col1img img{
+    width: 80%;
+    margin-left: 35px;
+}
+
+.sProduct .col2{
+
+    width: 50%;
+    margin-left: 30px;
+
+}
+
+.sProduct .col1{
+    width: 50%;
+}
+.sProduct .col2 hr{
+    margin: 20px 0px;
+}
+.sProduct .col2 p{
+    font-size: small;
+    font-weight: 500;
+}
+.sProduct .col2 h3{
+    font-weight: 600;
+    font-size: medium
+}
+
+.sizeselector ul{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+  
+
+    
+}
+.sizeselector label{
+    font-size: small;
+}
+.sizeselector ul li{
+   border: 1px solid black;
+    border-radius: 10px;
+    padding: 5px 10px;
+    font-size: 7px;
+
+}
+.colorselecter label{
+    font-size: small;
+}
+.colorselecter .colors{
+    font-size: 10px;
+
+}
+.quantityselecter label{
+    font-size: small;
+
+}
+.quantityselecter .quantity{
+    font-size: 10px;
+
+}
+.quantityselecter button{
+    margin: 1px;
+    font-size: 10px;
+}
+.col2 .addtocart button{
+    background-color: black;
+    color: white;
+    font-size: 12px;
+    font-weight: 300;
+    border-radius: 10px;
+    padding: 5px 20px;
+    cursor: pointer;
+    border: none;
+}
+.sizeselector{
+    margin-top: 10px;
+
+}
+.colorselecter{
+    margin-top: 10px;
+}
+.quantityselecter{
+    margin-top: 10px;
+}
+.addtocart{
+    margin-top: 10px;
+}
